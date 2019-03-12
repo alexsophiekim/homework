@@ -1,0 +1,247 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #7f8c8d;
+}
+
+.red{
+    background-color: #e74c3c;
+}
+
+.blue{
+    background-color: #2980b9;
+}
+
+.green{
+    background-color: #16a085;
+}
+
+.yellow{
+    background-color: #f1c40f;
+}
+
+.purple{
+    background-color: #9b59b6;
+}
+
+.grey{
+    background-color: #95a5a6;
+}
+
+.orange{
+    background-color: #e67e22;
+}
+
+.pink{
+    background-color: #ff9ff3;
+}
+
+.skyblue{
+    background-color: #48dbfb;
+}
+
+.lime{
+    background-color: #badc58;
+}
+
+.black{
+    background-color: #2d3436;
+}
+
+.white{
+    background-color: #ecf0f1;
+}
+
+.col{
+    min-height: 50px;
+    float: left;
+    padding: 12px;
+}
+
+.pageContainer{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.col12{
+    width: 100%;height: 300px;
+}
+.col13{
+  width: 100%; height: 50px;
+}
+.col11{
+    width: 91.66%
+}
+
+.col10{
+    width: 83.33%;
+}
+
+.col9{
+    width: 75%
+}
+
+.col8{
+    width: 66.66%
+}
+
+.col7{
+    width: 58.33%;
+}
+
+.col6{
+    width: 50%;
+}
+
+.col5{
+    width: 41.66%;height: 400px;
+}
+
+.col4{
+    width: 33.33%;height: 400px;
+}
+
+.col3{
+    width: 25%;height: 400px;
+    position: relative;
+}
+
+.col2{
+    width: 16.67%; height: 10px;
+    position: relative; top: 200px;left: 20px;
+}
+
+.col1{
+    width: 8.33%;
+}
+.col1__1{
+  width: 25%; height: 10px;
+  position: absolute; top: 30px;left: 30px;
+
+}
+.col1__2{
+  width: 25%; height: 10px;
+  position: absolute;top:30px;left: 120px;
+}
+
+.col2__1{
+  width: 60%; height: 10px;
+  position: absolute;top: 100px;left: 30px;
+}
+.col1__3{
+  width: 25%;height: 10px;
+  position: absolute;top:200px;left: 30px;
+}
+.col1__4{
+  width: 25%; height: 10px;
+  position: absolute;top: 200px;left: 120px;
+}
+.col2__2{
+  width: 60%;height: 10px;
+  position: absolute;top: 300px; left: 30px;
+}
+.row:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+
+
+@media screen and (max-width:800px){
+/*
+    when the viewport is between 0px and 800px
+    Only change what needs to be changed.
+*/
+    body{
+        background-color: #2ecc71;
+
+    }
+
+    .box{
+        float: none;
+        width: 100%;
+    }
+
+
+    .logo{
+        float: none;
+        width: 100%;
+    }
+
+    .navCenter{
+        float: none;
+        width: 100%;
+    }
+
+    .list{
+        float: none;
+        width: 100%;
+    }
+
+    .colS12{
+        width: 100%;
+        position: fixed;top: 0;
+    }
+
+    .colS11{
+        width:100%;height: 300px;
+    }
+
+    .colS10{
+        width: 83.33%;
+    }
+
+    .colS9{
+        width: 75%;
+    }
+
+    .colS8{
+        width: 66.66%;
+        margin: 20px 0;
+        position: relative;top: 20px;left:120px;
+        float: left;
+
+    }
+
+    .colS7{
+        width: 100%;height: 100px;
+    }
+
+    .colS6{
+        width: 50%;
+    }
+
+    .colS5{
+        width: 100%;height: 100px;
+    }
+
+    .colS4{
+        width: 100%;height: 100px;
+    }
+
+    .colS3{
+        width: 100%;height: 600px;
+
+    }
+
+    .colS2{
+        width: 16.67%;
+        position: relative;left: 500px;
+    }
+
+    .colS1{
+        width: 8.33%;
+    }
+
+}
